@@ -1,0 +1,10 @@
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/rowmapper/PersonaRowMapper.java
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/dao/impl/PersonaDaoImpl.java
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/model/Persona.java
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/controller/PersonaController.java
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/service/PersonaService.java
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/service/impl/PersonaServiceImpl.java
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/config/AppConfig.java
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/config/SwaggerConfiguration.java
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/ApiTestJdbcApplication.java
+/home/kevin/Documentos/workspace/api-test-jdbc/src/main/java/com/springboot/api/jdbc/dao/PersonaDao.java

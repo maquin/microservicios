@@ -1,0 +1,26 @@
+version: '2.3'
+services:
+  mcsapitest:
+    image: reposdocker/api-test-jdbc:1.0.0
+    container_name: mcsapitest
+    hostname: apitest
+    ports:
+      - "19091:8080"
+    cpus: 0.9
+    cpuset: '0'
+    restart: always
+    mem_limit: '2048m'
+   
+  monitoring:
+    image: google/cadvisor
+    container_name: monitor
+    hostname: monitor
+    ports:
+      - 9090:8080
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+ 
